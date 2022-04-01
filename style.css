@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 1.6rem;
+}
+
+/* h1 header style */
+
+h1{
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+    font-size: 4.3rem;
+    padding: 20px
+}
+/* main css style using inline block and box shadow */
+
+.product{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 300px;
+    margin: 5%;
+    font-size: 12px;
+    border: 2px solid;
+    box-shadow: -15px 27px 53px -8px rgba(0,0,0,0.71);
+    -webkit-box-shadow: -15px 27px 53px -8px rgba(250, 18, 18, 0.71);
+     -moz-box-shadow: -15px 27px 53px -8px rgba(0,0,0,0.71);
+     font-family: 'Abel', sans-serif;
+
+}
+.brand{
+    padding: 1rem;
+    color: black;
+    
+}
+.brand-descr{
+        margin: 1rem;
+        font-size: 1rem;
+        color: black;
+ }
+.brand-link{
+         margin: 1rem;
+}
+.product {
+    transition: transform 250ms;
+  }
+.user:hover {
+    transform: translateY(-10px)
+  }
+.imgstyle{
+    width: 100%;
+    height: 100%;
+}
